@@ -202,7 +202,7 @@ h2{
     transform: translateY(100%);
 }
 .status-text{
-    font-size: 2.5vw;
+    font-size: 2rem;
     letter-spacing: 0.5rem;
     margin: 2%;
 }
@@ -218,7 +218,8 @@ h2{
 }
 
 .against-pc-text{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
+    font-weight: bold;
     letter-spacing: 0.5rem;
     margin: 2%;
 }
@@ -250,7 +251,7 @@ h2{
 .play-again{
     background-color: white;
     color: #656565;
-    font-size: 1vw;
+    font-size: .9rem;
     letter-spacing: 0.2em;
     cursor: pointer;
     border-radius: 5px;
@@ -275,15 +276,18 @@ li span{
 @media only screen and (max-width: 700px) {
     .result-text{
         text-align: center;
-        top: 80%;
-        left: 35%;
-        transform: translateX(-65%);
+        top: 70%;
+        left: 33%;
+        right: 33%;
         transform: translateY(-20%);
     } 
     .against-pc-text{
-        font-size: 2vw;
+        font-size: 2vh;
     }
     .status-text{
-        font-size: 3vw;
+        font-size: 2.5vh;
     }   
+    .play-again{
+        font-size: 1rem;
+    }
   }
